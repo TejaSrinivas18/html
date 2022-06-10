@@ -62,7 +62,7 @@ addressInput.id = "addressInput2";
 document.body.appendChild(addressInput2);
 
 checkBoxEl.onclick = function() {
-    if (checkBoxEl.checked === true) {
+    if (checkBoxEl.checked) {
         let name = nameInput.value;
         nameInput2.value = name;
         let doorNo = doorInput.value;
